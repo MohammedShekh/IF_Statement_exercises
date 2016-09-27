@@ -1,0 +1,10 @@
+#Mohammed Shekh
+#27/09/2016
+#Oyster Card
+
+age=int(input("Hi, what's your age?"))
+address=input("What's your address? (Enter London or other)")
+if age < 19 and address=="London":
+    print("You are qualified to have an Oyster Card. Congratulation!")
+else:
+    print("Unfortunately you cannot apply for the Oyster Card")
